@@ -35,7 +35,7 @@ const platforms = [
 
 export function Listen() {
   return (
-    <section id="listen" className="py-24 md:py-32 bg-secondary/30 border-t border-border">
+    <section id="listen" className="py-24 md:py-32 bg-card/50 border-t border-border">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <span className="text-primary text-sm font-medium uppercase tracking-widest">
