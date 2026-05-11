@@ -37,10 +37,10 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="#viveos"
+              href="#videos"
               className="px-8 py-4 bg-primary text-primary-foreground font-medium uppercase tracking-wider text-sm hover:bg-primary/80 transition-colors"
             >
-              Watch Viveos
+              Watch Videos
             </Link>
             <Link
               href="#listen"

@@ -33,8 +33,8 @@ export function Footer() {
               <Link href="#about" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
                 About
               </Link>
-              <Link href="#viveos" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Viveos
+              <Link href="#videos" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                Videos
               </Link>
               <Link href="#listen" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
                 Listen

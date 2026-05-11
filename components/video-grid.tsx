@@ -6,21 +6,21 @@ import { Play } from "lucide-react"
 interface Video {
   id: string
   title: string
-  category: "viveos" | "fyooshavision"
+  category: "videos" | "fyooshavision"
 }
 
 const videos: Video[] = [
-  { id: "pngVA2c-kD0", title: "Viveo 1", category: "viveos" },
-  { id: "X3Skd3SwuxY", title: "Viveo 2", category: "viveos" },
-  { id: "xO61dFM_hy0", title: "Viveo 3", category: "viveos" },
-  { id: "8Is9N5cqBms", title: "Viveo 4", category: "viveos" },
-  { id: "e5wtrUOTIWU", title: "Viveo 5", category: "viveos" },
-  { id: "e_dhoB2CDKM", title: "Viveo 6", category: "viveos" },
-  { id: "seAaWuKzp0c", title: "Viveo 7", category: "viveos" },
-  { id: "hA6byocYXiY", title: "Viveo 8", category: "viveos" },
-  { id: "A2E5chb2ruY", title: "Viveo 9", category: "viveos" },
-  { id: "ikcgZqQzJTg", title: "Viveo 10", category: "viveos" },
-  { id: "IhOu3q8wFpY", title: "Viveo 11", category: "viveos" },
+  { id: "pngVA2c-kD0", title: "Video 1", category: "videos" },
+  { id: "X3Skd3SwuxY", title: "Video 2", category: "videos" },
+  { id: "xO61dFM_hy0", title: "Video 3", category: "videos" },
+  { id: "8Is9N5cqBms", title: "Video 4", category: "videos" },
+  { id: "e5wtrUOTIWU", title: "Video 5", category: "videos" },
+  { id: "e_dhoB2CDKM", title: "Video 6", category: "videos" },
+  { id: "seAaWuKzp0c", title: "Video 7", category: "videos" },
+  { id: "hA6byocYXiY", title: "Video 8", category: "videos" },
+  { id: "A2E5chb2ruY", title: "Video 9", category: "videos" },
+  { id: "ikcgZqQzJTg", title: "Video 10", category: "videos" },
+  { id: "IhOu3q8wFpY", title: "Video 11", category: "videos" },
   { id: "h2v_1ziAYTE", title: "Fyooshavision 1", category: "fyooshavision" },
   { id: "0_CAWLxYnDg", title: "Fyooshavision 2", category: "fyooshavision" },
   { id: "3eN6qVGEaDg", title: "Fyooshavision 3", category: "fyooshavision" },
@@ -72,19 +72,19 @@ function VideoCard({ video, onPlay, isPlaying }: VideoCardProps) {
 
 export function VideoGrid() {
   const [playingId, setPlayingId] = useState<string | null>(null)
-  const [filter, setFilter] = useState<"all" | "viveos" | "fyooshavision">("all")
+  const [filter, setFilter] = useState<"all" | "videos" | "fyooshavision">("all")
 
   const filteredVideos = filter === "all" 
     ? videos 
     : videos.filter(v => v.category === filter)
 
   return (
-    <section id="viveos" className="py-16 md:py-24">
+    <section id="videos" className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
             <h2 className="font-[family-name:var(--font-oswald)] text-4xl md:text-5xl font-bold uppercase tracking-tight">
-              Viveos
+              Videos
             </h2>
             <p className="text-muted-foreground mt-2 max-w-xl">
               Visual journeys fueled by raging guitars, fusing music, imagery, and historical sound clips.
@@ -102,14 +102,14 @@ export function VideoGrid() {
               All
             </button>
             <button
-              onClick={() => setFilter("viveos")}
+              onClick={() => setFilter("videos")}
               className={`px-4 py-2 text-sm font-medium uppercase tracking-wider transition-colors ${
-                filter === "viveos" 
+                filter === "videos" 
                   ? "bg-primary text-primary-foreground" 
                   : "bg-secondary text-secondary-foreground hover:bg-muted"
               }`}
             >
-              Viveos
+              Videos
             </button>
             <button
               onClick={() => setFilter("fyooshavision")}
