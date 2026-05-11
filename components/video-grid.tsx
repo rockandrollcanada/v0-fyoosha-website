@@ -21,9 +21,9 @@ const videos: Video[] = [
   { id: "A2E5chb2ruY", title: "Video 9", category: "videos" },
   { id: "ikcgZqQzJTg", title: "Video 10", category: "videos" },
   { id: "IhOu3q8wFpY", title: "Video 11", category: "videos" },
-  { id: "h2v_1ziAYTE", title: "Fyooshavision 1", category: "fyooshavision" },
-  { id: "0_CAWLxYnDg", title: "Fyooshavision 2", category: "fyooshavision" },
-  { id: "3eN6qVGEaDg", title: "Fyooshavision 3", category: "fyooshavision" },
+  { id: "h2v_1ziAYTE", title: "fyooshavision 1", category: "fyooshavision" },
+  { id: "0_CAWLxYnDg", title: "fyooshavision 2", category: "fyooshavision" },
+  { id: "3eN6qVGEaDg", title: "fyooshavision 3", category: "fyooshavision" },
 ]
 
 interface VideoCardProps {
@@ -119,7 +119,7 @@ export function VideoGrid() {
                   : "bg-secondary text-secondary-foreground hover:bg-muted"
               }`}
             >
-              Fyooshavision
+              fyooshavision
             </button>
           </div>
         </div>
