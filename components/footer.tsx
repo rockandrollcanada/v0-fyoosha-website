@@ -13,9 +13,9 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <Link 
-              href="/" 
-              className="font-[family-name:var(--font-oswald)] text-3xl font-bold uppercase tracking-tighter text-foreground hover:text-primary transition-colors inline-block"
+            <Link
+              href="/"
+              className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors inline-block"
             >
               fyoosha
             </Link>
