@@ -23,14 +23,14 @@ export function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-[family-name:var(--font-oswald)] text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold uppercase tracking-tighter mb-6 leading-none">
+          <h1 className="font-[family-name:var(--font-oswald)] text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter mb-6 leading-none">
             <span className="text-primary">fy</span>oosha
           </h1>
-          
+
           <p className="text-lg md:text-xl lg:text-2xl text-foreground/90 max-w-2xl mx-auto mb-4 leading-relaxed">
             An original instrumental rock duo from Toronto
           </p>
-          
+
           <p className="text-sm md:text-base text-muted-foreground max-w-xl mx-auto mb-12">
             A rock-based melodic fusion of contemporary music elements from rock, jazz, classical, and blues with a touch of electronica
           </p>
