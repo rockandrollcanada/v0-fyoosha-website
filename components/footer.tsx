@@ -15,7 +15,7 @@ export function Footer() {
           <div>
             <Link 
               href="/" 
-              className="font-[family-name:var(--font-oswald)] text-3xl font-bold uppercase tracking-tighter text-foreground hover:text-primary transition-colors inline-block"
+              className="font-[family-name:var(--font-oswald)] text-3xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors inline-block"
             >
               fyoosha
             </Link>
