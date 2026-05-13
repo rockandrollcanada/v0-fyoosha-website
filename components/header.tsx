@@ -20,7 +20,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link 
             href="/" 
-            className="font-[family-name:var(--font-oswald)] text-2xl md:text-3xl font-bold uppercase tracking-tighter text-foreground hover:text-primary transition-colors"
+            className="font-[family-name:var(--font-oswald)] text-2xl md:text-3xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors"
           >
             fyoosha
           </Link>
