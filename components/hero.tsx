@@ -23,7 +23,7 @@ export function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-[family-name:var(--font-oswald)] text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold uppercase tracking-tighter mb-6 leading-none">
+          <h1 className="font-[family-name:var(--font-oswald)] text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter mb-6 leading-none">
             <span className="text-primary">fy</span>oosha
           </h1>
           
