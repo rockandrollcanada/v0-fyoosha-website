@@ -15,7 +15,7 @@ export function About() {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                <span className="font-[family-name:var(--font-georgian)]">ფიუშა</span> is an original instrumental recording duo - guitar and drums - creating a 
+                fyoosha is an original instrumental recording duo - guitar and drums - creating a 
                 rock-based melodic fusion of various contemporary music elements from rock, jazz, 
                 classical and blues with a touch of electronica.
               </p>

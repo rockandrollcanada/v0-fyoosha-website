@@ -45,7 +45,7 @@ export function Listen() {
             Listen Now
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Find <span className="font-[family-name:var(--font-georgian)]">ფიუშა</span> on your favorite platform
+            Find fyoosha on your favorite platform
           </p>
         </div>
 
