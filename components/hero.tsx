@@ -23,7 +23,7 @@ export function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="relative w-full max-w-md mx-auto mb-8">
+          <div className="relative w-full max-w-md mx-auto mb-8 pt-8">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/font-1PegonFqjyvAwmCBn5lrGPr4Qj4air.jpeg"
               alt="fyoosha eyes logo"
