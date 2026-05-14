@@ -26,6 +26,16 @@ export function Hero() {
           <h1 className="font-[family-name:var(--font-oswald)] text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold tracking-tighter mb-6 leading-none">
             <span className="text-primary">fy</span>oosha
           </h1>
+
+          <div className="relative w-full max-w-md mx-auto mb-8">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/font-1PegonFqjyvAwmCBn5lrGPr4Qj4air.jpeg"
+              alt="fyoosha eyes logo"
+              width={500}
+              height={200}
+              className="w-full h-auto"
+            />
+          </div>
           
           <p className="text-lg md:text-xl lg:text-2xl text-foreground/90 max-w-2xl mx-auto mb-4 leading-relaxed">
             An original instrumental rock duo from Toronto
