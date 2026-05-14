@@ -91,6 +91,54 @@ export function About() {
             />
           </div>
         </div>
+
+        {/* Live Performance Gallery */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-live-qkDdxsmxqeSiF4QgL0ztPC2u0kyTul.jpg"
+              alt="fyoosha bassist and guitarist performing live"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W-Live_fyoosha-MylyJtaHbXwa4vuckoAwy8v6IuqcDz.jpg"
+              alt="fyoosha guitarist and drummer black and white"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Live-fyoosha-g-x9EC8ePiaDHnTLxh5ypwhF1Pw5VyDB.jpg"
+              alt="fyoosha guitarist on stage with red lighting"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W_Fyoosha-QnV1m7FEeXPKno48C25yhMajouxuRM.jpg"
+              alt="fyoosha band performing live black and white"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+        </div>
+
+        {/* Wide Band Shot */}
+        <div className="mt-4">
+          <div className="aspect-[21/9] relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-g-lawrence-ZW8gylklGIOVupSKT0pbyavOtUDDka.jpg"
+              alt="fyoosha guitarist and bassist performing together on stage"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+        </div>
       </div>
     </section>
   )
