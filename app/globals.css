@@ -79,6 +79,7 @@
   --font-sans: 'Inter', 'Inter Fallback', sans-serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
   --font-display: 'Oswald', 'Oswald Fallback', sans-serif;
+  --font-georgian: 'Noto Sans Georgian', 'Noto Sans Georgian Fallback', sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

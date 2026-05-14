@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Oswald } from 'next/font/google'
+import { Inter, Oswald, Noto_Sans_Georgian } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -11,6 +11,12 @@ const inter = Inter({
 const oswald = Oswald({ 
   subsets: ["latin"],
   variable: '--font-oswald',
+  weight: ['400', '500', '600', '700'],
+})
+
+const notoSansGeorgian = Noto_Sans_Georgian({
+  subsets: ["georgian"],
+  variable: '--font-georgian',
   weight: ['400', '500', '600', '700'],
 })
 
@@ -48,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${oswald.variable} bg-background`}>
+    <html lang="en" className={`${inter.variable} ${oswald.variable} ${notoSansGeorgian.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
