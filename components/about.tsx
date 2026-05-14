@@ -60,16 +60,16 @@ export function About() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20">
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-one-RqonKFGUGqQPLcgav6sIBnE6Eg7Khq.jpg"
-              alt="fyoosha live performance"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-g-1Y13SKg8crt6QWX43biDmL8191SqRB.jpg"
+              alt="fyoosha guitarist performing live"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-5-dQF08n9UV3ETmPi9hclgKuUz2jv7NM.jpg"
-              alt="fyoosha on stage"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-drums-lbYO1U0J5rvsCqynnynzE7Y3FYTTHU.jpg"
+              alt="fyoosha drummer performing live"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
