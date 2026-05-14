@@ -22,7 +22,7 @@ export function Header() {
             href="/" 
             className="font-[family-name:var(--font-georgian)] text-2xl md:text-3xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors"
           >
-            fyoosha
+            ფიუშა
           </Link>
 
           {/* Desktop Navigation */}

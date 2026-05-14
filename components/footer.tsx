@@ -17,7 +17,7 @@ export function Footer() {
               href="/" 
               className="font-[family-name:var(--font-georgian)] text-3xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors inline-block"
             >
-              fyoosha
+              ფიუშა
             </Link>
             <p className="text-muted-foreground mt-4 text-sm leading-relaxed">
               Toronto rock duo exploring political rhetoric through a fusion of rock, jazz, classical, blues, and electronica.
@@ -66,7 +66,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            <span className="font-[family-name:var(--font-georgian)]">fyoosha</span> - Toronto, Canada
+            <span className="font-[family-name:var(--font-georgian)]">ფიუშა</span> - Toronto, Canada
           </p>
           <p className="text-muted-foreground/60 text-xs">
             The resolution is cheerful and ominous.
