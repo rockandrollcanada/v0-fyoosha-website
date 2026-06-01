@@ -74,14 +74,7 @@ export function About() {
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
-          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-8-lEDxU12QRAwCTYpZjT0YSamCa8ChUu.jpg"
-              alt="fyoosha surreal artwork"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
+
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-four-Tg2HUqWXWV6y095fwGAcKVGy0AKO1y.jpg"
