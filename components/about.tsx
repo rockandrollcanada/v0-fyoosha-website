@@ -36,12 +36,11 @@ export function About() {
           <div className="relative">
             <div className="aspect-[2/1] relative overflow-hidden image-glow transition-all duration-500">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-three-ejIDc1Qh1hM54VMCXFTewfw2LrMO7N.jpg"
-                alt="fyoosha - guitar and drums duo"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-cool.-VYzL5C4Mdtex1WWcN4RdDDjEFXqt8b.png"
+                alt="fyoosha surreal artistic composition"
                 fill
-                className="object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-700"
+                className="object-cover hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
             </div>
             
             {/* Location Badge */}
