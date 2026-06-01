@@ -74,6 +74,22 @@ export function About() {
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W_Fyoosha-GlJ3LaOpnd6PracLEbFl5ybdIOrgQc.jpg"
+              alt="fyoosha band performance black and white"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+          <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W-Live_fyoosha-GuJcSMI0qlXB2cfLA3dN4HXe8ygfaF.jpg"
+              alt="fyoosha live performance guitarist and drummer"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
 
 
         </div>
