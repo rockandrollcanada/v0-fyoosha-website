@@ -42,16 +42,7 @@ export function About() {
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
-            
-            {/* Location Badge */}
-            <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-card border border-border p-4 md:p-6">
-              <div className="font-[family-name:var(--font-oswald)] text-2xl md:text-4xl font-bold text-primary">
-                Toronto
-              </div>
-              <div className="text-muted-foreground text-xs md:text-sm uppercase tracking-wider mt-1">
-                Canada
-              </div>
-            </div>
+
           </div>
         </div>
 
