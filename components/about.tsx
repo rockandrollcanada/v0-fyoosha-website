@@ -53,7 +53,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-one-RqonKFGUGqQPLcgav6sIBnE6Eg7Khq.jpg"
               alt="fyoosha live performance"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -61,7 +61,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-5-dQF08n9UV3ETmPi9hclgKuUz2jv7NM.jpg"
               alt="fyoosha on stage"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -69,7 +69,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W_Fyoosha-GlJ3LaOpnd6PracLEbFl5ybdIOrgQc.jpg"
               alt="fyoosha band performance black and white"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -77,7 +77,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W-Live_fyoosha-GuJcSMI0qlXB2cfLA3dN4HXe8ygfaF.jpg"
               alt="fyoosha live performance guitarist and drummer"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -85,7 +85,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-g-jZnqLRsF4nLMwsDZr9OP1GcsS5OnqI.jpg"
               alt="fyoosha guitarist with blue stage lighting"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -93,7 +93,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-law-3qihRtFDuMhQEjoKLYPxFxaCkSntK1.jpg"
               alt="fyoosha live band performance with colorful lighting"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -101,7 +101,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-drums-VwqYTKJHY4I9169QRjycJFEPLipk0X.jpg"
               alt="fyoosha drummer with stage lighting"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
@@ -109,7 +109,7 @@ export function About() {
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Live-fyoosha-g-Zycz0ruktMn1Q4lPZBx6mgAqLNFq1k.jpg"
               alt="fyoosha guitarist live performance red stage lighting"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
+              className="object-cover object-top hover:scale-105 transition-transform duration-700"
             />
           </div>
 
