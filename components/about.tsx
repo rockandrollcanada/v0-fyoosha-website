@@ -83,6 +83,18 @@ export function About() {
 
 
         </div>
+
+        {/* Full Width Image */}
+        <div className="mt-8 relative overflow-hidden image-glow transition-all duration-500">
+          <div className="aspect-video relative">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha2026-3rX1C6tWLHRbwnj5KLmCi7f778YB54.png"
+              alt="fyoosha colorful performance composite with band members"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+        </div>
       </div>
     </section>
   )
