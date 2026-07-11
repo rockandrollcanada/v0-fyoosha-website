@@ -50,32 +50,32 @@ export function About() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20">
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-one-RqonKFGUGqQPLcgav6sIBnE6Eg7Khq.jpg"
-              alt="fyoosha live performance"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-july-ahWRl2s0hyh2hlhTiYisc1AHdGKuPl.png"
+              alt="fyoosha band members performing on stage"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-5-dQF08n9UV3ETmPi9hclgKuUz2jv7NM.jpg"
-              alt="fyoosha on stage"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-july-ahWRl2s0hyh2hlhTiYisc1AHdGKuPl.png"
+              alt="fyoosha band members performing on stage"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W_Fyoosha-GlJ3LaOpnd6PracLEbFl5ybdIOrgQc.jpg"
-              alt="fyoosha band performance black and white"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-july-ahWRl2s0hyh2hlhTiYisc1AHdGKuPl.png"
+              alt="fyoosha band members performing on stage"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="aspect-square relative overflow-hidden image-glow transition-all duration-500">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/B-W-Live_fyoosha-GuJcSMI0qlXB2cfLA3dN4HXe8ygfaF.jpg"
-              alt="fyoosha live performance guitarist and drummer"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fyoosha-july-ahWRl2s0hyh2hlhTiYisc1AHdGKuPl.png"
+              alt="fyoosha band members performing on stage"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
